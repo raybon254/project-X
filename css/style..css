@@ -8,10 +8,11 @@ body{
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
     grid-template-areas: 
             "header header"
             "aside main"
+            "content content"
             "footer footer" 
     ;
    gap: 5px;
@@ -107,12 +108,107 @@ main{
     border-bottom: 2px solid rgb(201, 194, 194);
 }
 
+
+/* content */
+#content{
+    grid-area: content;
+}
+
+section{
+    border-radius: 20px;
+    background-color:  #f9ebea;
+    box-shadow: 5px 5px 5px #d6dbdf;
+    padding: 10px;
+    margin: 10px;
+}
+.service1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.group1{
+margin-left: 20px;
+}
+.group3{
+margin-right: 20px;
+}
+#blog{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    display: block;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+
 /* footer */
 footer{
     grid-area: footer;
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+#icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #icons a{
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+    padding-left: 2px;
+  }
+  
+  #icons i{
+    font-size: 24px;
+  }
+  #copy{
+    color: grey;
+  }
 
 
