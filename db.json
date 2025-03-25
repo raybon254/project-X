@@ -1,0 +1,92 @@
+{
+  "form": [
+    {
+      "id": "adbd",
+      "name": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": "c3dc",
+      "name": "Ray",
+      "email": "ray@gmail.com",
+      "message": "Nice cars here"
+    },
+    {
+      "id": "b8f3",
+      "name": "Agnes",
+      "email": "agnes@gmail.com",
+      "message": "I love your services"
+    }
+  ],
+  "brands": {
+    "american": {
+      "ford": [],
+      "chevrolet": [],
+      "tesla": [],
+      "dodge": [],
+      "jeep": [],
+      "cadillac": [],
+      "gmc": [],
+      "chrysler": [],
+      "buick": [],
+      "lincoln": []
+    },
+    "german": {
+      "bmw": [],
+      "mercedes": [],
+      "audi": [],
+      "volkswagen": [],
+      "porsche": [],
+      "opel": []
+    },
+    "japanese": {
+      "toyota": [
+        {
+            "car": "Crown",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        },
+        {
+            "car": "Vellfire",
+            "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+        },
+        {
+            "car": "Corolla cross hybrid",
+            "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        },
+        {
+            "car": "Land cruiser 250 series",
+            "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        },
+        {
+            "car": "Tundra",
+            "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        }
+      ],
+      "honda": [],
+      "subaru": [],
+      "mazda": [],
+      "nissan": [],
+      "mitsubishi": [],
+      "suzuki": [],
+      "lexus": [],
+      "infiniti": []
+    },
+    "british": {
+      "rolls_royce": [],
+      "bentley": [],
+      "aston_martin": [],
+      "jaguar": [],
+      "land_rover": [],
+      "mini": []
+    },
+    "italian": {
+      "ferrari": [],
+      "lamborghini": [],
+      "maserati": [],
+      "alfa_romeo": [],
+      "fiat": []
+    }
+  },
+  "aside": []
+}
