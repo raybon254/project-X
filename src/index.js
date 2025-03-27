@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
 
     formInput();
+    fetchData();
 
 })
 
@@ -9,6 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
    const formUrl = "http://localhost:3000/form"
    const brandsUrl = "http://localhost:3000/brands"
    const asideUrl = "http://localhost:3000/aside"
+   let carData = {}; // Store fetched car data
    
    // form
        function formInput(){
@@ -48,38 +50,66 @@ document.addEventListener('DOMContentLoaded',()=>{
    // aside
    // main
 
-   function loopCar(){
+function fetchData() {
+    fetch(brandsUrl)
+        .then((res) => res.json())
+        .then((data) => {
+            carData = data.toyota || {}; // Store Toyota brands
+            loopCars(); // Initialize after data is fetched
+        })
+        .catch((err) => console.log("Error fetching data:", err));
+}
 
-    const left = document.querySelector('.arrowLeft')
-    const right = document.querySelector('.arrowRight')
-    const carName = document.querySelector('#carname')
-    const carImage = document.querySelector('#car1')
+function loopCars() {
+    const markets = document.querySelectorAll(".market");
 
-    let index = 0;
-    let carArr = []
+    markets.forEach((market) => {
+        const category = market.dataset.type; 
+        let index = 0; 
 
-    fetch(brandsUrl)    
-    .then((res => res.json()))
-    .then(data => {
-        //accessing toyota data
+        if (!carData[category] || carData[category].length === 0) {
+            console.warn(`No data found for category: ${category}`);
+            return;
+        }
 
-        carArr = data.japanese.toyota; //gets stored in carArr variable
+        const carName = market.querySelector(".carname");
+        const carImage = market.querySelector(".car");
+        const leftArrow = market.querySelector(".arrowLeft");
+        const rightArrow = market.querySelector(".arrowRight");
 
-    })
+        // Function to update car display for the current category
+        function updateCarDisplay() {
+            if (carData[category].length > 0) {
+                carName.textContent = carData[category][index].car;
+                carImage.src = carData[category][index].image;
+            }
+        }
 
-    //Event left arrow
-    left.addEventListener('click', ()=>{
+        // Initialize display with first car
+        updateCarDisplay();
 
+        // Left arrow click event
+        leftArrow.addEventListener("click", () => {
+            index = (index - 1 + carData[category].length) % carData[category].length;
+            updateCarDisplay();
+        });
 
-        //accessing arr data in the event
-        index = ((index -1) + carArr.length) % carArr.length
+        // Right arrow click event
+        rightArrow.addEventListener("click", () => {
+            index = (index + 1) % carData[category].length;
+            updateCarDisplay();
+        });
+    });
+}
 
-        // populating the div box 
-        carImage.innerHTML = `${image}`
-        carName.textContent = `${car}`
-    })
-
-   }
-   loopCar()
-
-   
+// function brand(){
+//     const brand = document.querySelectorAll('.brand')
+//     brand.forEach(brand=> {
+//         const currentBrand = brand.dataset.type
+//         if (!carData[currentBrand] || carData[currentBrand].length === 0) {
+//             console.warn(`No data found for category: ${category}`);
+//             return;
+//         }
+//         loopCars()
+//     })
+// }

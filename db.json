@@ -20,72 +20,180 @@
     }
   ],
   "brands": {
-    "american": {
-      "ford": [],
-      "chevrolet": [],
-      "tesla": [],
-      "dodge": [],
-      "jeep": [],
-      "cadillac": [],
-      "gmc": [],
-      "chrysler": [],
-      "buick": [],
-      "lincoln": []
-    },
-    "german": {
-      "bmw": [],
-      "mercedes": [],
-      "audi": [],
-      "volkswagen": [],
-      "porsche": [],
-      "opel": []
-    },
-    "japanese": {
-      "toyota": [
+    "toyota": {
+      "luxury":[
         {
-            "car": "Crown",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+          "car": "Crown",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+      },
+      {
+          "car": "Vellfire",
+          "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+      },
+      {
+          "car": "Corolla cross hybrid",
+          "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+      },
+      {
+          "car": "Land cruiser 250 series",
+          "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+      },
+      {
+          "car": "Tundra",
+          "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+      }
+      ],
+      "offroad":[
+        {
+          "car": "4-Runner",
+          "image": "https://cdn.motor1.com/images/mgl/Kb7gmQ/s1/2025-toyota-4runner-trd-pro.jpg"
         },
         {
-            "car": "Vellfire",
-            "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+          "car": "Sequoia",
+          "image": "https://www.motortopia.com/wp-content/uploads/2024/04/DSC06090.webp"
         },
         {
-            "car": "Corolla cross hybrid",
-            "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+          "car": "Land-cruiser",
+          "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
         },
         {
-            "car": "Land cruiser 250 series",
-            "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+          "car": "Tundra",
+          "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
         },
         {
-            "car": "Tundra",
-            "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+          "car": "Tacoma",
+          "image": "https://cdn.motor1.com/images/mgl/pb79q0/s1/2024-toyota-tacoma-trd-pro.webp"
         }
       ],
-      "honda": [],
-      "subaru": [],
-      "mazda": [],
-      "nissan": [],
-      "mitsubishi": [],
-      "suzuki": [],
-      "lexus": [],
-      "infiniti": []
+      "sports":[
+        {
+          "car": "Crown",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+      },
+      {
+          "car": "Vellfire",
+          "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+      },
+      {
+          "car": "Corolla cross hybrid",
+          "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+      },
+      {
+          "car": "Land cruiser 250 series",
+          "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+      },
+      {
+          "car": "Tundra",
+          "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+      }
+      ],
+      "electric":[
+        {
+          "car": "4-Runner",
+          "image": "https://cdn.motor1.com/images/mgl/Kb7gmQ/s1/2025-toyota-4runner-trd-pro.jpg"
+        },
+        {
+          "car": "Sequoia",
+          "image": "https://www.motortopia.com/wp-content/uploads/2024/04/DSC06090.webp"
+        },
+        {
+          "car": "Land-cruiser",
+          "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        },
+        {
+          "car": "Tundra",
+          "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        },
+        {
+          "car": "Tacoma",
+          "image": "https://cdn.motor1.com/images/mgl/pb79q0/s1/2024-toyota-tacoma-trd-pro.webp"
+        }
+      ],
+      "trucks":[
+        {
+          "car": "Crown",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+      },
+      {
+          "car": "Vellfire",
+          "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+      },
+      {
+          "car": "Corolla cross hybrid",
+          "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+      },
+      {
+          "car": "Land cruiser 250 series",
+          "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+      },
+      {
+          "car": "Tundra",
+          "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+      }
+      ]
     },
-    "british": {
-      "rolls_royce": [],
-      "bentley": [],
-      "aston_martin": [],
-      "jaguar": [],
-      "land_rover": [],
-      "mini": []
+    "bmw":{
+      "luxury":[],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
     },
-    "italian": {
-      "ferrari": [],
-      "lamborghini": [],
-      "maserati": [],
-      "alfa_romeo": [],
-      "fiat": []
+    "mercedes":{
+      "luxury":[],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
+    },
+    "audi":{
+      "luxury":[],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
+    },
+    "volkswagon":{
+      "luxury":[],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
+    },
+    "lexus":{
+      "luxury":[
+        {
+          "car": "Lexus Ls",
+          "image": "https://www.easterns.com/wp-content/uploads/2024/08/Lexus-LS500-Easterns.png"
+        },
+        {
+          "car": "Lexus LX",
+          "image": "https://jacksonvilleluxuryblog.com/wp-content/uploads/sites/460/2020/09/Lexus-LX-570-black-onyx-gallery-overlay-1204x677-LEX-LXG-MY18-0033_M75.jpg"
+        },
+        {
+          "car": "Lexus LC",
+          "image": "https://di-uploads-pod46.dealerinspire.com/lexusofsarasotamorgan/uploads/2024/03/2024-Lexus-LC-Hybrid-Banner-1920x600-1.jpg"
+        },
+        {
+          "car": "Lexus GS",
+          "image": "https://i.ytimg.com/vi/8Qtf7T9RsJA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbO9-kkLzj4mpm9pXddj8pcCCRHg"
+        },
+        {
+          "car": "Lexus RZ",
+          "image": "https://cdn.motor1.com/images/mgl/7ZL3Op/s1/lexus-rz-450e-three-quarters.jpg"
+        }
+      ],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
+    },
+    "subaru":{
+      "luxury":[],
+      "off-road":[],
+      "sports":[],
+      "electric":[],
+      "Trucks":[]
     }
   },
   "aside": []
