@@ -153,5 +153,140 @@
     }
     ]
   },
-  "aside": []
+
+
+  "bike": {
+    "yamaha":[
+          {
+            "bike": "YZF-R1",
+            "image": "https://www.roadracingworld.com/wp-content/uploads/2024/09/11_2025_YZFR1S1L_DPBMC_US_12_YY_34_1726677543.jpg"
+          },
+          {
+            "bike": "YZF-R6",
+            "image": "https://motorcyclesports.net/wp-content/uploads/2024-Yamaha-YZF600R6RCOMP-EU-Tech_Black-Static-002-03_2024-09-26-14-50-24.webp"
+          },
+          {
+            "bike": "MT-10",
+            "image": "https://www.yamaha-motor.eu/eu/en/products/motorcycles/hyper-naked/mt-10-2024/_jcr_content/root/image.img.jpg/1709807452761.jpg"
+          },
+          {
+            "bike": "WR450F",
+            "image": "https://www.yamaha-motor.eu/eu/en/products/motorcycles/enduro/wr450f-2024/_jcr_content/root/image.img.jpg/1709807452761.jpg"
+          },
+          {
+            "bike": "XTZ 250",
+            "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/116075/xtz-250-right-side-view.jpeg?isig=0&q=80"
+          }  
+    ],
+    "honda":[
+        {
+            "bike": "CBR1000RR-R",
+            "image": "https://www.financialexpress.com/wp-content/uploads/2024/10/honda-fireblade-carbon.jpg"
+          },
+          {
+            "bike": "CBR600RR",
+            "image": "https://www.bikesrepublic.com/wp-content/uploads/2023/08/2024-honda-cbr600rr-suzuka-8-hours-2.jpg"
+          },
+          {
+            "bike": "CB650R",
+            "image": "https://powersports.honda.com/street/sport/cb650r/_jcr_content/root/container/container/image_copy_cop.img.jpg/1683130539120.jpg"
+          },
+          {
+            "bike": "CRF450R",
+            "image": "https://powersports.honda.com/off-road/competition/crf450r/_jcr_content/root/container/container/image_copy.img.jpg/1683130539120.jpg"
+          },
+          {
+            "bike": "XR650L",
+            "image": "https://powersports.honda.com/off-road/dual-sport/xr650l/_jcr_content/root/container/container/image_copy.img.jpg/1683130539120.jpg"
+          }   
+    ],
+    "kawasaki":[
+        {
+            "bike": "Ninja ZX-10R",
+            "image": "https://www.bossrides.in/wp-content/uploads/2023/03/kawasaki-ninja-zx10r-1-min-scaled-1-1024x800.jpg"
+          },
+          {
+            "bike": "Ninja 650",
+            "image": "https://www.revzilla.com/cdn-cgi/image/onerror=redirect,format=auto,q=75,w=987/blog_content_image/image/37936/gallery/2017_Kawasaki_Ninja_650_green.jpg"
+          },
+          {
+            "bike": "Z900",
+            "image": "https://www.kawasaki.com/Content/Uploads/Products/572/Colors/25032/2101110105d60.jpg"
+          },
+          {
+            "bike": "KLX 300",
+            "image": "https://www.kawasaki.com/Content/Uploads/Products/580/Colors/25232/2101110105d60.jpg"
+          },
+          {
+            "bike": "KX450",
+            "image": "https://www.kawasaki.com/Content/Uploads/Products/789/Colors/25118/2101110105d60.jpg"
+          }
+    ],
+    "suzuki":[
+        {
+            "bike": "GSX-R1000",
+            "image": "https://cdn.visordown.com/2020-Suzuki-GSX-R1000R-100th-Anniversary-Limited-Edition-First-Look-5_0.jpg?width=600"
+          },
+          {
+            "bike": "GSX-R750",
+            "image": "https://sportbikesincmag.com/wp-content/uploads/2023/06/GSX-R750M4_KGL_D-jpg-1200x675.webp"
+          },
+          {
+            "bike": "GSX-S1000",
+            "image": "https://www.suzuki.co.uk/motorcycles/media/pages/bike/gsx-s1000/gsx-s1000-m.jpg"
+          },
+          {
+            "bike": "RM-Z450",
+            "image": "https://www.suzuki.co.uk/motorcycles/media/pages/bike/rm-z450/rm-z450-m.jpg"
+          },
+          {
+            "bike": "DR-Z400S",
+            "image": "https://www.suzuki.co.uk/motorcycles/media/pages/bike/dr-z400s/dr-z400s-m.jpg"
+          }
+    ],
+    "ducatti":[
+        {
+            "bike": "Panigale V4",
+            "image": "https://www.motoroids.com/wp-content/uploads/2020/11/Panigale-V4-SP-Ducati.jpg"
+          },
+          {
+            "bike": "Streetfighter V4",
+            "image": "https://www.financialexpress.com/wp-content/uploads/2021/05/Streetfighter-V4-Track-static-01.jpg"
+          },
+          {
+            "bike": "SuperSport 950",
+            "image": "https://www.ducati.com/ww/en/bikes/supersport/supersport-950/_jcr_content/root/container_869032896/container/image_137593991.img.jpg/1644500913015.jpg"
+          },
+          {
+            "bike": "DesertX",
+            "image": "https://www.ducati.com/ww/en/bikes/desertx/_jcr_content/root/container_869032896/container/image_137593991.img.jpg/1644500913015.jpg"
+          },
+          {
+            "bike": "Scrambler Desert Sled",
+            "image": "https://www.ducati.com/ww/en/bikes/scrambler/desert-sled/_jcr_content/root/container_869032896/container/image_137593991.img.jpg/1644500913015.jpg"
+          }
+    ],
+    "bmw":[
+        {
+            "bike": "S 1000 RR",
+            "image": "https://www.motorcyclesofdulles.com/wp-content/uploads/2024/03/2024-BMW-S-1000-RR-A-Comprehensive-Overview-of-Specs-and-Cutting-Edge-Features-.jpeg"
+          },
+          {
+            "bike": "M 1000 RR",
+            "image": "https://cdpcdn.dx1app.com/products/USA/BM/2025/MC/BMWM/M_1000_RR/50/LIGHT_WHITE_-_M_MOTORSPORT/2000000021.jpg"
+          },
+          {
+            "bike": "F 900 R",
+            "image": "https://www.bmw-motorrad.com/content/dam/bmwmotorradnsc/common/motorrad_models/f900r/bmw-motorrad-f-900-r-model-image-1.jpg"
+          },
+          {
+            "bike": "R 1250 GS",
+            "image": "https://www.bmw-motorrad.com/content/dam/bmwmotorradnsc/common/motorrad_models/r1250gs/bmw-motorrad-r-1250-gs-model-image-1.jpg"
+          },
+          {
+            "bike": "F 850 GS",
+            "image": "https://www.bmw-motorrad.com/content/dam/bmwmotorradnsc/common/motorrad_models/f850gs/bmw-motorrad-f-850-gs-model-image-1.jpg"
+          }
+    ]
+  }
 }
