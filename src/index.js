@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     formInput();
     fetchData();
     bikedata();
+    fetchCardisplay();
+    fetchBikedisplay();
 
 })
 
@@ -113,9 +115,7 @@ function bikedata(){
             //store fetched in bike arr
             bikeArr = data || {};//check if data is truthy
             asideDisplay();
-            console.log("Fetched Data:", bikeArr);
 
-            
     }))
     .catch((err => console.log("Error fetching:", err)))
 }
@@ -166,3 +166,76 @@ function asideDisplay(){
      })
     })
 }
+
+
+const cars = [];
+const bikeDisp = [];
+
+function fetchCardisplay() {
+  fetch(brandsUrl)
+    .then((res) => res.json())
+    .then((data) => {
+      if (!data) throw new Error("brands data is missing!");
+      
+      Object.values(data).forEach((brand) => cars.push(...brand)); // Flatten brands
+      if (cars.length > 0) {
+        showCar();
+        setInterval(showCar, 10000);
+      }
+    })
+    .catch((error) => console.error("Error fetching data:", error));
+}
+
+let currentIndex = 0;
+
+function showCar() {
+  if (cars.length === 0) return;
+  
+  const car = cars[currentIndex];
+  if (!car || !car.car || !car.image) {
+    console.error("Invalid car object:", car);
+    return;
+  }
+
+  document.getElementById("car-name").textContent = car.car;
+  document.getElementById("car-image").src = car.image;
+  currentIndex = (currentIndex + 1) % cars.length;
+}
+
+function fetchBikedisplay() {
+  fetch(bikeUrl)
+    .then((res) => res.json())
+    .then((data) => {
+      if (!data) throw new Error("bike data is missing!");
+      
+      Object.values(data).forEach((bikes) => bikeDisp.push(...bikes));
+      if (bikeDisp.length > 0) {
+        showBike();
+        setInterval(showBike, 10000);
+      }
+    })
+    .catch((error) => console.error("Error fetching bike data:", error));
+}
+
+function showBike() {
+  if (bikeDisp.length === 0) return;
+
+  const bikeC = bikeDisp[currentIndex];
+  if (!bikeC || !bikeC.bike || !bikeC.image) {
+    console.error("Invalid bike object:", bikeC);
+    return;
+  }
+
+  document.getElementById("bike-name").textContent = bikeC.bike;
+  document.getElementById("bike-image").src = bikeC.image;
+  currentIndex = (currentIndex + 1) % bikeDisp.length;
+}
+
+
+
+
+
+
+
+
+

@@ -74,6 +74,26 @@ aside{
     padding: 5px;
     margin: 5px;
 }
+#brandcar {
+    text-align: center;
+    margin-top: 20px;
+}
+#car-image {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#brandbike {
+    text-align: center;
+    margin-top: 20px;
+}
+#bike-image {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 /* main */
