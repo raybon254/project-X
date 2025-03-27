@@ -54,7 +54,7 @@ function fetchData() {
     fetch(brandsUrl)
         .then((res) => res.json())
         .then((data) => {
-            carData = data.toyota || {}; // Store Toyota brands
+            carData = data || {}; // Store Toyota brands
             loopCars(); // Initialize after data is fetched
         })
         .catch((err) => console.log("Error fetching data:", err));
@@ -101,15 +101,3 @@ function loopCars() {
         });
     });
 }
-
-// function brand(){
-//     const brand = document.querySelectorAll('.brand')
-//     brand.forEach(brand=> {
-//         const currentBrand = brand.dataset.type
-//         if (!carData[currentBrand] || carData[currentBrand].length === 0) {
-//             console.warn(`No data found for category: ${category}`);
-//             return;
-//         }
-//         loopCars()
-//     })
-// }
