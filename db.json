@@ -44,112 +44,112 @@
     ],
     "bmw": [
       {
-        "car": "Crown",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        "car": "BMW M3",
+        "image": "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/caradvice/private/24dcaeaa033eb3e8f9c693aeae44672d"
     },
     {
-        "car": "Vellfire",
-        "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+        "car": "BMW 7 Series",
+        "image": "https://www.topgear.com/sites/default/files/2023/08/P90492179_highRes_bmw-i7-xdrive60-m-sp%20%281%29.jpg"
     },
     {
-        "car": "Corolla cross hybrid",
-        "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        "car": "BMW X5",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-x5-m60i-102-6602d48787fb7.jpg?crop=0.772xw:0.651xh;0.0897xw,0.171xh&resize=2048:*"
     },
     {
-        "car": "Land cruiser 250 series",
-        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        "car": "BMW X5 M",
+        "image": "https://www.halliwelljones.co.uk/uploads/page-images/P90495466_highRes_der-neue-bmw-x5-m-co.jpg"
     },
     {
-        "car": "Tundra",
-        "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        "car": "BMW X7",
+        "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X7/10571/1689673096346/front-left-side-47.jpg"
     }
     ],
     "subaru": [
       {
-        "car": "Crown",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        "car": "Subaru WRX STI",
+        "image": "https://cdn.motor1.com/images/mgl/G3Al41/s1/subaru-wrx-sti-s210.jpg"
     },
     {
-        "car": "Vellfire",
-        "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+        "car": "Subaru Legacy",
+        "image": "https://media.ed.edmunds-media.com/subaru/legacy/2025/oem/2025_subaru_legacy_sedan_sport_fq_oem_1_1600.jpg"
     },
     {
-        "car": "Corolla cross hybrid",
-        "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        "car": "Subaru BRZ",
+        "image": "https://cdn.motor1.com/images/mgl/88mQ2/s1/2022-subaru-brz-exterior-front-quarter.webp"
     },
     {
-        "car": "Land cruiser 250 series",
-        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        "car": "Subaru Outback",
+        "image": "https://s7d1.scene7.com/is/image/scom/25_OBK_Wilderness_hero_gallery_1?$1100j$"
     },
     {
-        "car": "Tundra",
-        "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        "car": "Forester Wilderness",
+        "image": "https://www.insidehook.com/wp-content/uploads/2023/03/subaru-forester-wilderness-review.jpg?fit=1500%2C1000"
     }
     ],
     "mercedes": [
       {
-        "car": "Crown",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        "car": "Mercedes-Benz S-Class",
+        "image": "https://editorial.pxcrush.net/carsales/general/editorial/mercedes-benz-s_450_l_4matic_aus-10.jpg?width=1024&height=682"
     },
     {
-        "car": "Vellfire",
-        "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+        "car": "Mercedes-Benz 300SL Gullwing",
+        "image": "https://scottgrundfor.com/wp-content/gallery/1957-300sl-gullwing-7500053/grundfor-mercedes-300sl-gullwing-ivory-red-060.jpg"
     },
     {
-        "car": "Corolla cross hybrid",
-        "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        "car": "Mercedes-Benz C-Class",
+        "image": "https://wieck-mbusa-production.s3.amazonaws.com/photos/2c3dadbe5035eaa76bd37b2f943fa629f03abd84/preview-928x522.jpg"
     },
     {
-        "car": "Land cruiser 250 series",
-        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        "car": "Mercedes-Benz G-Class",
+        "image": "https://www.motortrend.com/uploads/2022/02/2022-Mercedes-Benz-G-Class-AMG-G63-22.jpg?w=768&width=768&q=75&format=webp"
     },
     {
-        "car": "Tundra",
-        "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        "car": "Mercedes-Benz GLE",
+        "image": "https://vehicle-images.dealerinspire.com/6931-11000414/4JGFB4FB4SB291366/6b1b25f437016978911d33bc1e5b8d4d.jpgu"
     }
     ],
     "audi": [
       {
-        "car": "Crown",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        "car": "Audi RS7",
+        "image": "https://www.mansory.com/sites/default/files/styles/1920x800_fullwidth_car_slider/public/2021-09/audi_rs_7_front_1.jpg?itok=1S2Ph9Gr"
     },
     {
-        "car": "Vellfire",
+        "car": "Audi A8",
         "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
     },
     {
-        "car": "Corolla cross hybrid",
-        "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        "car": "Audi R8",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=2048:*"
     },
     {
-        "car": "Land cruiser 250 series",
-        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        "car": "Audi Q7",
+        "image": "https://www.abt-sportsline.com/pim/documents/Bilder-Webseite/Audi/Headerbilder/Header_Q7_4M04.jpg"
     },
     {
-        "car": "Tundra",
-        "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        "car": "Audi Q5 Quattro",
+        "image": "https://i.gaw.to/vehicles/photos/40/33/403339-2024-audi-q5.jpg?640x400"
     }
     ],
     "lexus": [
       {
-        "car": "Crown",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg/1200px-Kokusai_Motorcars_Toyota_Crown_Majesta_S210.jpg"
+        "car": "Lexus LS 500",
+        "image": "https://cdn.motor1.com/images/mgl/3XxvY/s1/2020-lexus-ls-500-inspiration-series.jpg"
     },
     {
-        "car": "Vellfire",
-        "image": "https://www.galaxytoyota.in/blog/wp-content/uploads/2024/06/1-2.jpg"
+        "car": "Lexus RX 500h",
+        "image": "https://media-r2.carsandbids.com/cdn-cgi/image/width=2080,quality=70/171ab1e538119e13fa98382f268326fc825fdc20/photos/3ReRxnZR-_Cro5ATiG4-(edit).jpg?t=170691349415"
     },
     {
-        "car": "Corolla cross hybrid",
-        "image": "https://img.sm360.ca/images/article/erin-park-automotive/125883//2022_toyota_corolla_cross_windchillpearl_0011708725527424.jpg"
+        "car": "Lexus LC 500",
+        "image": "https://media.ed.edmunds-media.com/lexus/lc-500/2022/oem/2022_lexus_lc-500_coupe_base_fq_oem_1_1600.jpg"
     },
     {
-        "car": "Land cruiser 250 series",
-        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg"
+        "car": "Lexus GX 550",
+        "image": "https://vehicle-images.dealerinspire.com/ff5f-110004513/JTJAB7CX7R4057797/9cfd1f0618810e20d35376c50478d148.jpg"
     },
     {
-        "car": "Tundra",
-        "image": "https://i.ytimg.com/vi/zoNTC-dJ5CI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIbm0-LeyenheuAITb2qEJVCEuLQ"
+        "car": "Lexus LX 600",
+        "image": "https://global.toyota/pages/news/images/2022/01/12/1330_JAOS/001.jpg"
     }
     ]
   },

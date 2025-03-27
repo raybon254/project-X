@@ -21,7 +21,8 @@ body{
 /* header */
 header{
     grid-area: header;
-    border: 2px solid black;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
     padding: 10px;   
     margin: 5px;
 }
@@ -37,7 +38,12 @@ a{
     margin: 5px;
     color: black;
 }
-#theme a:hover{
+.theme {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.theme a:hover{
     border-radius: 5px;
     color: aqua;
     background-color: rgb(31, 20, 95);
@@ -232,7 +238,7 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-button {
+#send {
     width: 100%;
     padding: 10px;
     border: none;
