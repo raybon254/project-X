@@ -73,7 +73,18 @@ a{
     background-color: rgb(51, 107, 109);
     transition: 0.2s;
 }
+.image {
+    height: auto;
+    width: auto;
+    display: flex; /* Ensures it aligns properly */
+    align-items: center;
+}
 
+.image img {
+    height: 50px; /* Adjust size as needed */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+}
 
 
 /* aside */
@@ -84,31 +95,36 @@ aside{
     margin: 15x;
 }
 #brandcar{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
-    width: auto;
-    height: 400px;
-    padding: 5px;
-    margin: 5px;
-    background-color: var(--card-bg);    
+    padding: 10px;
+    background-color: var(--card-bg);
+    text-align: center;
+    margin: auto;   
 }
 #brandbike{
-    width: auto;
-    height: 400px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
     background-color: var(--card-bg);
+    text-align: center;
+    margin: auto;
 }
 #brandcar {
     text-align: center;
     margin-top: 20px;
 }
 #car-image {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: contain;
     border-radius: 10px;
 }
 #brandbike {
@@ -116,9 +132,10 @@ aside{
     margin-top: 20px;
 }
 #bike-image {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -134,21 +151,24 @@ main{
     overflow: auto;
     background-color: var(--card-bg);
 }
-#comp{
-    background-color: var(--card-bg);
-    padding: 5px;
-    margin: 10px;
+#comp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
-#marketbrands{
+
+#marketbrands {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
+    width: 100%;
+    max-width: 1000px;
 }
 #layout{
     display: flex;
@@ -165,20 +185,18 @@ main{
     box-shadow: 5px 5px 10px gray;
     background-color: var(--card-bg);
     padding: 15px;
-    margin: 5px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 .bikes{
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
     background-color: var(--card-bg);
     padding: 15px;
-    margin: 5px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 .below{
     display: flex;
@@ -187,14 +205,16 @@ main{
     align-items: center;
 }
 .car{
-    height: 250px;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     object-fit: contain;
     border-bottom: 2px solid rgb(201, 194, 194);
 }
 .bike{
-    height: 250px;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     object-fit: contain;
     border-bottom: 2px solid rgb(201, 194, 194);
 }
@@ -303,10 +323,9 @@ footer{
   }
 
 /* responsiveness */
-  @media (max-width: 768px) {
+@media (max-width: 1024px) {
     body {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
         grid-template-areas: 
             "header"
             "main"
@@ -314,6 +333,108 @@ footer{
             "content"
             "footer";
     }
-} 
+
+    aside {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #comp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #brandcar, #brandbike {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #car-image, #bike-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    aside, main {
+        width: 100%;
+    }
+
+    #comp {
+        flex-direction: column;
+        padding: 5px;
+    }
+    #marketbrands {
+        flex-direction: column;
+        align-items: center;
+    }
+    #comp img {
+        max-width: 100%;
+    }
+    .market, .bikes {
+        width: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    aside {
+        padding: 5px;
+    }
+
+    .market, .bikes {
+        width: 100%;
+    }
+
+    #brandcar, #brandbike {
+        padding: 5px;
+    }
+    
+    #comp {
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    #comp img {
+        max-width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
 
 
