@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     bikedata();
     fetchCardisplay();
     fetchBikedisplay();
-
+    theme();
 })
 
    //globals
@@ -114,24 +114,23 @@ function bikedata(){
     .then((data => {
             //store fetched in bike arr
             bikeArr = data || {};//check if data is truthy
-            asideDisplay();
+            bikeDisplay();
 
     }))
     .catch((err => console.log("Error fetching:", err)))
 }
 
-function asideDisplay(){
+function bikeDisplay(){
 
 
     // const bikeBrand = document.querySelector('#brandbike')
     // const carBrand = document.querySelector('#brandcar')
     const bikeElement = document.querySelectorAll('.bikes')
-    let currentBike = '';
 
      bikeElement.forEach(bike =>{
         
             let index = 0;
-            currentBike = bike.dataset.type
+            const currentBike = bike.dataset.type
             const bikeName = bike.querySelector('.bikename')
             const bikeImage = bike.querySelector('.bike')
 
@@ -147,7 +146,7 @@ function asideDisplay(){
             bikeImage.src = bikeArr[currentBike][index].image;
         }
      }
-     bikedisplay() //initiate the first index
+     bikedisplay() //initiate the first index as default
 
 
     //  arrow events
@@ -233,7 +232,19 @@ function showBike() {
 
 
 
+function theme(){
+    const themeToggle = document.getElementById("themeToggle");
 
+    // Load theme preference
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+    }
+
+    themeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+        localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+}
 
 
 

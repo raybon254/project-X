@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #f9f9f9;
+}
+
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
+}
 body{
     padding: 10px;
     min-height: 100vh;
@@ -16,6 +28,8 @@ body{
             "footer footer" 
     ;
    gap: 5px;
+   background-color: var(--card-bg);
+   color: var(--text-color);
 }
 
 /* header */
@@ -25,6 +39,7 @@ header{
     border-radius: 5px;
     padding: 10px;   
     margin: 5px;
+    background-color: var(--card-bg);
 }
 nav{
     display: flex;
@@ -36,22 +51,23 @@ a{
     font-weight: bold;
     padding: 5px;
     margin: 5px;
-    color: black;
+    color: var(--text-color);
 }
 .theme {
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
   }
 .theme a:hover{
-    border-radius: 5px;
-    color: aqua;
-    background-color: rgb(31, 20, 95);
+    background-color: gray;
 }
 #bar a:hover{
     border-radius: 5px;
-    color: aqua;
-    background-color: rgb(31, 20, 95);
+    color: var(--text-color);
+    background-color: rgb(51, 107, 109);
     transition: 0.2s;
 }
 
@@ -71,6 +87,7 @@ aside{
     height: 400px;
     padding: 5px;
     margin: 5px;
+    background-color: var(--card-bg);    
 }
 #brandbike{
     width: auto;
@@ -79,6 +96,7 @@ aside{
     box-shadow: 5px 5px 10px gray;
     padding: 5px;
     margin: 5px;
+    background-color: var(--card-bg);
 }
 #brandcar {
     text-align: center;
@@ -111,10 +129,10 @@ main{
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgb(27, 102, 98);
     overflow: auto;
-    background-color:  #fdedec ;
+    background-color: var(--card-bg);
 }
 #comp{
-    background-color:  #f9ebea;
+    background-color: var(--card-bg);
     padding: 5px;
     margin: 10px;
     text-align: center;
@@ -142,7 +160,7 @@ main{
 .market{
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
-    background-color: rgb(248, 208, 213);
+    background-color: var(--card-bg);
     padding: 15px;
     margin: 5px;
     border-radius: 10px;
@@ -152,7 +170,7 @@ main{
 .bikes{
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
-    background-color: rgb(248, 208, 213);
+    background-color: var(--card-bg);
     padding: 15px;
     margin: 5px;
     border-radius: 10px;
@@ -186,7 +204,7 @@ main{
 
 section{
     border-radius: 20px;
-    background-color:  #f9ebea;
+    background-color: var(--card-bg);
     box-shadow: 5px 5px 5px #d6dbdf;
     padding: 10px;
     margin: 10px;
@@ -211,10 +229,10 @@ margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: var(--card-bg);
 }
 .contact-form {
-    background: white;
+    background-color: var(--card-bg);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -255,7 +273,7 @@ button:hover {
 /* footer */
 footer{
     grid-area: footer;
-    border: 2px solid black;
+    background-color: var(--card-bg);
     padding: 10px;
     margin: 5px;
     display: flex;
@@ -280,5 +298,19 @@ footer{
   #copy{
     color: grey;
   }
+
+/* responsiveness */
+  @media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+            "header"
+            "main"
+            "aside"
+            "content"
+            "footer";
+    }
+} 
 
 
