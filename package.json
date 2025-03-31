@@ -1,10 +1,6 @@
 {
-  "name": "project-X",
-  "version": "1.0.0",
-  "description": "My JSON server",
-  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
