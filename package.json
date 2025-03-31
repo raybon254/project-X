@@ -1,5 +1,5 @@
 {
-  "name": "PROJECT-X",
+  "name": "project-X",
   "version": "1.0.0",
   "description": "My JSON server",
   "main": "server.js",
