@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
    //globals
-   const formUrl = "https://your-json-server.onrender.com/form"
-   const brandsUrl = "https://your-json-server.onrender.com/brands"
-   const bikeUrl = "https://your-json-server.onrender.com/bike"
+   const formUrl = "https://project-x-3.onrender.com/form"
+   const brandsUrl = "https://project-x-3.onrender.com/brands"
+   const bikeUrl = "https://project-x-3.onrender.com/bike"
    let carData = {}; // Store fetched car data
    
    // form
