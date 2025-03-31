@@ -90,6 +90,8 @@ a{
 /* aside */
 aside{
     grid-area: aside;
+    height: 800px;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     margin: 15x;
